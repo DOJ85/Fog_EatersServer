@@ -130,7 +130,7 @@ header * {
     margin-top: 50px;
     width: 45%;
     max-width: 620px;
-    min-width: 240px;
+    min-width: 240px!important;
     height: 500px;
     box-shadow: 0 0 15px #000;
   }
