@@ -74,7 +74,7 @@ header * {
 
 .mainPageContainer {
   width: 1140px;
-  /* background-color: #4f4f4f; */
+  background-color: #4f4f4f;
   height: 100%;
   margin: 0 auto;
 }
@@ -103,4 +103,37 @@ header * {
   width: 300px;
   height: 700px;
   box-shadow: 0 0 15px #000;
+}
+
+.discordappMediumDevice {
+  display: none;
+}
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 1789px) {
+
+  .discordapp {
+    display: none;
+  }
+
+  .discordappMediumDevice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .discordappMediumDevice iframe {
+    margin-top: 50px;
+    width: 45%;
+    height: 500px;
+    box-shadow: 0 0 15px #000;
+  }
+
+  .mainPageContainer {
+    width: 100%;
+    margin: 0 auto;
+  }
+
 }
