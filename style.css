@@ -102,6 +102,7 @@ header * {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .twitchEmbed iframe {
@@ -138,6 +139,12 @@ header * {
 
 .navbar ul {
 list-style: none;
+padding: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 0 7px;
 }
 
 
@@ -146,17 +153,29 @@ list-style: none;
   color: #e2e3e4;
   font-family: "Orbitron", sans-serif;
   border: 1px solid #e2e3e4;
+  border-radius: 1px;
   padding: 7px 20px;
   background-color: rgba(226, 227, 228, 0.15);
   text-shadow: 0 0 5px #000;
-
   font-size: 20px;
+  transition: .5s;
 }
+
+.navbar a:hover {
+  background-color: rgba(226, 227, 228, 0.5);
+  transition: .7s;
+  text-shadow: 0 0 5px #000, 0 0 15px #000;
+}
+
+
+
 
 .lore {
   color: #e2e3e4;
   font-family: "Roboto", sans-serif;
-  margin-top: 100px;
+  padding-top: 50px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .lore p {
@@ -203,6 +222,20 @@ list-style: none;
 
   header img {
     margin-top: -100px;
+  }
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 781px) {
+
+  .nabvar {
+
   }
 
 }
