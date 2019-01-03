@@ -23,11 +23,11 @@ header {
 }
 
 header h1 {
-  margin-top: -300px;
+  margin-top: -100px;
   transform: translateZ(-0.5px) scale(2);
   font-family: "Orbitron", sans-serif;
   color: #d3d3d3;
-  font-size: 100px;
+  font-size: 4vw;
   text-shadow: 0 0 35px #000, 0 0 35px #000, 0 0 35px #000, 0 0 55px #000;
 }
 
@@ -63,22 +63,44 @@ header * {
 
 
 
-.test1 {
+.mainPage {
   box-shadow: inset 0 7px 30px -7px rgba(0,0,0,1);
   height: 100%;
   background: #2b3749;
   background: -webkit-linear-gradient(to top, #131821, #2b3749);
   background: linear-gradient(to top, #131821, #2b3749);
-
-
-
   transform-style: preserve-3d;
-  z-index: -20
+}
+
+.mainPageContainer {
+  width: 1140px;
+  /* background-color: #4f4f4f; */
+  height: 100%;
+  margin: 0 auto;
+}
+
+.twitchEmbed {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.twitchEmbed iframe {
+    box-shadow: 0 0 15px #000;
+}
+
+.discordapp {
+  /* float: right; */
+  position: fixed;
+  margin-left: 20px;
 }
 
 
-
-
-
-
-/**/
+.discordapp iframe {
+  margin-top: 100px;
+  width: 300px;
+  height: 700px;
+  box-shadow: 0 0 15px #000;
+}
