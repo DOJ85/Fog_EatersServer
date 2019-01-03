@@ -129,6 +129,34 @@ header * {
 }
 
 
+
+
+.navbar {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.navbar ul {
+list-style: none;
+}
+
+
+.navbar a {
+    text-decoration: none;
+  color: #e2e3e4;
+  font-family: "Orbitron", sans-serif;
+  border: 1px solid #e2e3e4;
+  padding: 7px 20px;
+  background-color: rgba(226, 227, 228, 0.15);
+  text-shadow: 0 0 5px #000;
+
+  font-size: 20px;
+}
+
+
+
+
+
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 1789px) {
 
