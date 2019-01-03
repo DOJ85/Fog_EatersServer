@@ -20,6 +20,7 @@ header {
   position: relative;
   transform-style: inherit;
   width: 100%;
+
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -44,6 +45,7 @@ header img {
   transform: translateZ(-0.5px) scale(2);
   width: 20%;
   height: 20%;
+  min-width: 216px;
 }
 
 header, header::before {
@@ -153,6 +155,10 @@ header * {
   .mainPageContainer {
     width: 100%;
     margin: 0 auto;
+  }
+
+  header img {
+    margin-top: -100px;
   }
 
 }
