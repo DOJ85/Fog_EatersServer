@@ -20,6 +20,10 @@ header {
   position: relative;
   transform-style: inherit;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 header h1 {
@@ -29,6 +33,17 @@ header h1 {
   color: #d3d3d3;
   font-size: 4vw;
   text-shadow: 0 0 35px #000, 0 0 35px #000, 0 0 35px #000, 0 0 55px #000;
+
+  display: none;
+
+
+}
+
+header img {
+  margin-top: -500px;
+  transform: translateZ(-0.5px) scale(2);
+  width: 20%;
+  height: 20%;
 }
 
 header, header::before {
@@ -130,7 +145,7 @@ header * {
     margin-top: 50px;
     width: 45%;
     max-width: 620px;
-    min-width: 240px!important;
+    min-width: 240px;
     height: 500px;
     box-shadow: 0 0 15px #000;
   }
