@@ -158,12 +158,14 @@ padding: 0;
   background-color: rgba(226, 227, 228, 0.15);
   text-shadow: 0 0 5px #000;
   font-size: 20px;
-  transition: .5s;
+  transition-property: background-color;
+  transition-duration: .5s;
 }
 
 .navbar a:hover {
   background-color: rgba(226, 227, 228, 0.5);
-  transition: .7s;
+  transition-property: background-color;
+  transition-duration: .7s;
   text-shadow: 0 0 5px #000, 0 0 15px #000;
 }
 
@@ -234,8 +236,9 @@ padding: 0;
 
 @media screen and (max-width: 781px) {
 
-  .nabvar {
+.navbar {
+  display: none;
+}
 
-  }
 
 }
