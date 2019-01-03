@@ -82,7 +82,7 @@ header * {
 
 .mainPage {
   box-shadow: inset 0 7px 30px -7px rgba(0,0,0,1);
-  height: 100%;
+  min-height: 100%;
   background: #2b3749;
   background: -webkit-linear-gradient(to top, #131821, #2b3749);
   background: linear-gradient(to top, #131821, #2b3749);
@@ -91,7 +91,7 @@ header * {
 
 .mainPageContainer {
   width: 1140px;
-  background-color: #4f4f4f;
+  /* background-color: #4f4f4f; */
   height: 100%;
   margin: 0 auto;
 }
@@ -150,6 +150,7 @@ header * {
     min-width: 240px;
     height: 500px;
     box-shadow: 0 0 15px #000;
+    margin-bottom: 50px;
   }
 
   .mainPageContainer {
