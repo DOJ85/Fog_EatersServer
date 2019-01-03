@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+header {
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 30vw 0 5vw;
+  position: relative;
+  transform-style: inherit;
+  width: 100%;
+}
+
+header h1 {
+  margin-top: -300px;
+  transform: translateZ(-0.5px) scale(2);
+  font-family: "Orbitron", sans-serif;
+  color: #d3d3d3;
+  font-size: 100px;
+  text-shadow: 0 0 35px #000, 0 0 35px #000, 0 0 35px #000, 0 0 55px #000;
+}
+
+header, header::before {
+  background: 35% 50% / cover;
+}
+
+header::before{
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  background-image: url("images/fog_eater_bg1.jpg");
+  box-shadow: 0 0 30px #000;
+  background-size: cover;
+  transform-origin: center center 0;
+  transform: translateZ(-1px) scale(2.01);
+  z-index: -1;
+  min-height: 100vh;
+
+
+}
+
+header * {
+  text-align: center;
+  margin: 0;
+  padding: 1em 0;
+}
+
+
+
+
+.test1 {
+  box-shadow: inset 0 7px 30px -7px rgba(0,0,0,1);
+  height: 100%;
+  background: #2b3749;
+  background: -webkit-linear-gradient(to top, #131821, #2b3749);
+  background: linear-gradient(to top, #131821, #2b3749);
+
+
+
+  transform-style: preserve-3d;
+  z-index: -20
+}
+
+
+
+
+
+
+/**/
