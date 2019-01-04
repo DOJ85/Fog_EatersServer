@@ -184,12 +184,16 @@ padding: 0;
 
 .homeText p {
   font-weight: 300;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   text-align: center;
 }
 
+
 .homeText h2, h3 {
   text-align: center;
+}
+.homeText h2 {
+  margin-bottom: 50px;
 }
 
 hr {
