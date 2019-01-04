@@ -83,6 +83,7 @@ header * {
 .mainPage {
   box-shadow: inset 0 7px 30px -7px rgba(0,0,0,1);
   min-height: 100%;
+  height: 2000px; /* - - - - - For height test, delete later */
   background: #2b3749;
   background: -webkit-linear-gradient(to top, #131821, #2b3749);
   background: linear-gradient(to top, #131821, #2b3749);
@@ -90,7 +91,7 @@ header * {
 }
 
 .mainPageContainer {
-  width: 1140px;
+  width: 100%;
   /* background-color: #4f4f4f; */
   height: 100%;
   margin: 0 auto;
@@ -167,37 +168,52 @@ padding: 0;
   transition-property: background-color;
   transition-duration: .7s;
   text-shadow: 0 0 5px #000, 0 0 15px #000;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 
 
 
-.lore {
+.homeText {
   color: #e2e3e4;
   font-family: "Roboto", sans-serif;
   padding-top: 50px;
-  width: 90%;
+  width: 50%;
   margin: 0 auto;
 }
 
-.lore p {
+.homeText p {
   font-weight: 300;
   margin-top: 50px;
   text-align: center;
 }
 
-.lore h2 {
+.homeText h2, h3 {
   text-align: center;
+}
+
+hr {
+  margin-top: 50px;
+  width: 20%;
+}
+
+.ipName {
+  margin: 3px;
 }
 
 
 
 
-/* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 1789px) {
+@media screen and (max-width: 1462px) {
 
   .discordapp {
     display: none;
+  }
+
+  .discordappSticky {
+    position: fixed;
+    top: 0;
+    width: 100%
   }
 
   .discordappMediumDevice {
@@ -210,7 +226,7 @@ padding: 0;
   .discordappMediumDevice iframe {
     margin-top: 50px;
     width: 45%;
-    max-width: 620px;
+    max-width: 316px;
     min-width: 240px;
     height: 500px;
     box-shadow: 0 0 15px #000;
