@@ -84,9 +84,9 @@ header * {
   box-shadow: inset 0 7px 30px -7px rgba(0,0,0,1);
   min-height: 100%;
   height: 2000px; /* - - - - - For height test, delete later */
-  background: #2b3749;
-  background: -webkit-linear-gradient(to top, #131821, #2b3749);
-  background: linear-gradient(to top, #131821, #2b3749);
+  background: #383838;
+  background: -webkit-linear-gradient(to top, #000, #383838);
+  background: linear-gradient(to top, #000, #383838);
   transform-style: preserve-3d;
 }
 
