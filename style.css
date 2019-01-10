@@ -92,9 +92,13 @@ header * {
 
   position: absolute; /*fuck up margin on left*/
 
+              /* G R I S */
   /* background: #383838;
   background: -webkit-linear-gradient(to top, #000, #383838);
-  background: linear-gradient(to top, #000, #383838); */ /* G R I S */
+  background: linear-gradient(to top, #000, #383838); */
+
+
+              /* B L E U */
   background: #2b3749;
   background: -webkit-linear-gradient(to top, #131821, #2b3749);
   background: linear-gradient(to top, #131821, #2b3749);
